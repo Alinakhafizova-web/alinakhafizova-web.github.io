@@ -1,11 +1,118 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Мой первый сайт</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+  body {
+    font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 40px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+  }
+
+  h1 {
+    color:#333;
+    margin-bottom: 10px;
+  }
+  h2 {
+  margin-top: 30px;
+}
+
+  p {
+    color: #555;
+    font-size: 18px;
+  }
+  .container {
+  max-width: 700px;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+}
+
+.subtitle {
+  color: #777;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.contact-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.contact-btn:hover {
+  background-color: #357abd;
+}
+.skills {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.skills li {
+  margin-bottom: 6px;
+}
+@media (max-width: 600px) {
+  body {
+    padding: 16px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p, li {
+    font-size: 16px;
+  }
+
+  .contact-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+</style>
 </head>
 <body>
-  <h1>Привет! Это мой первый сайт 🚀</h1>
-  <p>Я сделала его с помощью GitHub Pages.</p>
+<div class="container">
+    <h1>Алина — начинающий веб-разработчик</h1>
+    <p class="subtitle">Создаю простые и аккуратные сайты</p>
+
+    <h2>Обо мне</h2>
+    <p>
+      Я изучаю веб-разработку и создаю сайты с нуля.
+      Этот сайт — мой первый проект для портфолио.
+    </p>
+
+    <h2>Навыки</h2>
+    <ul class="skills">
+      <li>HTML — структура страниц</li>
+      <li>CSS — стили и оформление</li>
+      <li>Работа с VS Code</li>
+    </ul>
+    <a href="https://t.me/Alina_Khafizova_R" class="contact-btn" target="_blank">
+  Связаться со мной
+</a>
+  </div>
 </body>
 </html>
