@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="description" content="Портфолио веб-разработчика Алины — HTML, CSS, адаптивный дизайн, проекты на GitHub">
+<title>Alina Khafizova — Portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
@@ -99,7 +101,30 @@
       display: block;
   }
 }
-</style>
+.projects {
+  margin-top: 30px;
+}
+.project-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+.project-card h3 {
+  margin-bottom: 8px;
+}
+.contacts {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+}
+.contacts a {
+  text-decoration: none;
+  color: #4a90e2;
+  font-weight: bold;
+}
+    </style>
 </head>
 <body>
 <div class="container">
@@ -107,9 +132,10 @@
     <p class="subtitle">Создаю простые и аккуратные сайты</p>
 
     <h2>Обо мне</h2>
-   <p>
-  Я начинающий веб-разработчик. Создаю простые, аккуратные сайты и постепенно
-  расширяю стек. Этот сайт — мой первый полностью опубликованный проект.
+  <p>
+  Я начинающий веб-разработчик, увлечённый созданием адаптивных и аккуратных сайтов. Научилась:
+  структуре HTML, стилям CSS, адаптивности и GitHub Pages. Сейчас изучаю JavaScript,
+  чтобы делать более интерактивные проекты. Этот сайт — пример моей работы и уровня навыков.
 </p>
 
     <h2>Навыки</h2>
@@ -124,6 +150,10 @@
     <a href="https://t.me/Alina_Khafizova_R" class="contact-btn" target="_blank">
   Связаться со мной
 </a>
+    <div class="contacts">
+  <a href="https://github.com/alinakhafizova-web" target="_blank">GitHub</a>
+  <a href="https://t.me/Alina_Khafizova_R" target="_blank">Telegram</a>
+  <a href="mailto:Alina.khafizova20@mail.ru">Email</a>
   </div>
 </body>
 </html>
