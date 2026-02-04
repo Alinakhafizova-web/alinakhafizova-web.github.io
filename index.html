@@ -124,6 +124,21 @@
   color: #4a90e2;
   font-weight: bold;
 }
+        .contacts {
+  margin-top: 15px;
+  display: none;
+}
+
+.contacts a {
+  margin-right: 15px;
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contacts a:hover {
+  text-decoration: underline;
+}
     </style>
 </head>
 <body>
@@ -156,5 +171,16 @@
   <a href="https://t.me/Alina_Khafizova_R" target="_blank">Telegram</a>
   <a href="mailto:Alina.khafizova20@mail.ru">Email</a>
 </div>
+    <script>
+  function toggleContacts() {
+    const block = document.getElementById("contacts");
+
+    if (block.style.display === "none" || block.style.display === "") {
+      block.style.display = "block";
+    } else {
+      block.style.display = "none";
+    }
+  }
+</script>
 </body>
 </html>
